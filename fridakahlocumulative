@@ -1,0 +1,17 @@
+paintings = ["The Two Fridas", "My Dress Hangs Here", "Tree of Hope", "Self Portrait With Monkeys"]
+dates = ["1939", "1933", "1946", "1940"]
+collection = list(zip(paintings, dates))
+print(collection)
+collection.append(["The Broken Column", "1944"])
+collection.append(["The Wounded Deer", "1946"])
+collection.append(["Me and My Doll", "1937"])
+print(collection)
+paintings_length = len(collection)
+print(paintings_length)
+
+audio_tour_number = range(1, 9)
+for id in audio_tour_number:
+  print(id)
+
+master_list = list(zip(audio_tour_number, collection))
+print(master_list)
